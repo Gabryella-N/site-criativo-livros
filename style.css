@@ -2,10 +2,13 @@
     margin: 0;
     padding:0;
 }
+body {
+    font-family: 'Poppins', sans-serif;
+}
 
 .cabeçalho {
     background-color: #FFF3EA;
-    color: #763C00;
+    color: #3b1f00;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -24,20 +27,22 @@
 
 .livros-imagem{
     width: 20%;
+    padding: 24px 0;
 }
 
 .sobre{
     background-image: linear-gradient(#FFF6EA,#763C00);
-    color: #FFF6EA;
+    color: #3b1f00;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px 0;
+    padding: 24px 0;
 }
 
 .sobre-div-conteudo{
     width: 35%;
 }
+
 .sobre-titulo{
     padding: 24px 0;
 }
